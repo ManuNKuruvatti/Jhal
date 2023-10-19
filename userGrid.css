@@ -1,0 +1,22 @@
+/* UserGrid.css */
+
+/* Style for the table */
+.table-container {
+    background-color: skyblue;
+    margin: 20px;
+    padding-top: 50px;
+  }
+  
+  /* Style for the user details */
+  .userdetails {
+    background-color:#041b35;
+    color: azure;
+    width: 50%; /* Increase the width for larger display */
+    padding: 20px; /* Increase the padding for more space inside the details */
+    position: fixed;
+    top: 0;
+    right: 0; /* Position it at the right corner of the screen */
+    height: 45%; /* Make it cover the entire height of the screen */
+    overflow-y: auto; /* Add scroll if content exceeds the height */
+  }
+  

@@ -1,0 +1,64 @@
+
+.navbar {
+    background-color: #041b35; 
+    color: white; 
+  }
+  
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: rgb(239, 243, 234);
+  }
+  
+  
+  .nav-link {
+    color: white;
+    transition: color 0.2s;
+  }
+  
+ 
+  .nav-link:hover {
+    color: skyblue;
+  }
+  
+ 
+  .nav-dropdown {
+    color: white;
+    transition: color 0.2s;
+  }
+  
+  
+  .nav-dropdown:hover {
+    background-color: #007bff; 
+    color: white; 
+  }
+  
+ 
+  .nav-item i.bi-heart {
+    color: red;
+  }
+  
+  
+  .login-button {
+    margin-right: 15px;
+    color: white;
+    border-color: white;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  
+  .login-button:hover {
+    background-color: skyblue;
+    color: white;
+  }
+  
+  
+  .navbar-right {
+    margin-left: auto;
+  }
+  
+  
+  .nav-dropdown.dropdown-menu {
+    right: 0;
+    left: auto;
+  }
